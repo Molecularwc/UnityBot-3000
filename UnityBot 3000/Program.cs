@@ -7,7 +7,6 @@ namespace UnityBot_3000
         private static void Main()
         {
             Unity.RegisterTypes();
-
             Console.WriteLine("Hello, Discord!");
         }
     }
