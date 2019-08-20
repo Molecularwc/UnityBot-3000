@@ -6,4 +6,8 @@
     <RootNamespace>UnityBot_3000</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Unity" Version="5.8.6" />
+  </ItemGroup>
+
 </Project>
