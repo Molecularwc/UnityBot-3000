@@ -16,6 +16,8 @@ namespace UnityBot_3000
                 Token = "ABC",
                 SocketConfig = SocketConfig.GetDefault()
             };
+
+            var connection = Unity.Resolve<Connection>();
         }
     }
 }
