@@ -1,4 +1,5 @@
 ﻿using Unity;
+using Unity.Lifetime;
 using Unity.Resolution;
 using UnityBot_3000.Storage;
 using UnityBot_3000.Storage.Implementations;
@@ -22,7 +23,7 @@ namespace UnityBot_3000
         public static void RegisterTypes()
         {
             _container = new UnityContainer();
-            _container.RegisterType<IDataStorage, InMemoryStorage>();
+            _container.RegisterType<IDataStorage, InMemoryStorage>(new ContainerControlledLifetimeManager());
         }
 
         public static T Resolve<T>()
