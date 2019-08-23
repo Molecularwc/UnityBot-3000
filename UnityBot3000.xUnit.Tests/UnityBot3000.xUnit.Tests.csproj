@@ -1,10 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
-    <RootNamespace>UnityBot_3000.xUnit.Tests</RootNamespace>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>UnityBot3000.xUnit.Tests</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="xunit" Version="*"/>
+    <PackageReference Include="xunit" Version="*" />
   </ItemGroup>
 </Project>
