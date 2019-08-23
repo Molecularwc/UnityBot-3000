@@ -1,4 +1,4 @@
-﻿namespace UnityBot3000
+﻿namespace UnityBot3K
 {
     public interface ILogger
     {

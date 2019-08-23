@@ -1,7 +1,7 @@
 ﻿using Discord;
 using Discord.WebSocket;
 
-namespace UnityBot3000.Discord
+namespace UnityBot3K.Discord
 {
     public static class SocketConfig
     {

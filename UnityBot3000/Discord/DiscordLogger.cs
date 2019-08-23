@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Discord;
 
-namespace UnityBot3000.Discord
+namespace UnityBot3K.Discord
 {
     public class DiscordLogger
     {

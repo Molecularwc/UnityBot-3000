@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityBot3000", "UnityBot3000\UnityBot3000.csproj", "{FE69CD73-B1FC-4824-99BF-A8FC79941C48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityBot3K", "UnityBot3000\UnityBot3K.csproj", "{FE69CD73-B1FC-4824-99BF-A8FC79941C48}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityBot3K.xUnit.Tests", "UnityBot3000.xUnit.Tests\UnityBot3K.xUnit.Tests.csproj", "{4BAA4239-7ADC-4067-B3AC-7FF2AC6DFE1B}"
 EndProject

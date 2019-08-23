@@ -1,6 +1,6 @@
 ﻿using Discord.WebSocket;
 
-namespace UnityBot3000.Discord.Entities
+namespace UnityBot3K.Discord.Entities
 {
     public class UnityBotConfig
     {
