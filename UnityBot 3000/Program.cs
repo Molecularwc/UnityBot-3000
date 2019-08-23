@@ -18,7 +18,7 @@ namespace UnityBot_3000
             var connection = Unity.Resolve<Connection>();
             await connection.ConnectAsync(new UnityBotConfig
             {
-                Token = storage.RestoreObject<string>("BotToken")
+                Token = storage.RestoreObject<string>("Config/BotToken")
             });
         }
     }

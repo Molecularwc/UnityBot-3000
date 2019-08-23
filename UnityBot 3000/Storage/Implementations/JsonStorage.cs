@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using static System.IO.Directory;
 using Newtonsoft.Json;
 
 namespace UnityBot_3000.Storage.Implementations
@@ -8,7 +9,9 @@ namespace UnityBot_3000.Storage.Implementations
         public void StoreObject(object obj, string key)
         {
             var file = $"{key}.json";
-            Directory.CreateDirectory(file);
+            CreateDirectory(Path.GetDirectoryName(file));
+            var json = JsonConvert.SerializeObject(obj);
+            File.WriteAllText(file, json);
         }
 
         public T RestoreObject<T>(string key)
