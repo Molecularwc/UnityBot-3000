@@ -2,11 +2,11 @@
 using Unity;
 using Unity.Injection;
 using Unity.Resolution;
-using UnityBot_3000.Discord;
-using UnityBot_3000.Storage;
-using UnityBot_3000.Storage.Implementations;
+using UnityBot3000.Discord;
+using UnityBot3000.Storage;
+using UnityBot3000.Storage.Implementations;
 
-namespace UnityBot_3000
+namespace UnityBot3000
 {
     public static class Unity
     {

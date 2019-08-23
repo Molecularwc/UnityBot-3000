@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <RootNamespace>UnityBot_3000</RootNamespace>
+    <RootNamespace>UnityBot3000</RootNamespace>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace UnityBot_3000.Storage.Implementations
+namespace UnityBot3000.Storage.Implementations
 {
     public class InMemoryStorage : IDataStorage
     {

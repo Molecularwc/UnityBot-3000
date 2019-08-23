@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UnityBot_3000
+namespace UnityBot3000
 {
     public class Logger : ILogger
     {

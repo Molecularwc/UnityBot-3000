@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
-using UnityBot_3000.Discord;
-using UnityBot_3000.Discord.Entities;
-using UnityBot_3000.Storage;
+using UnityBot3000.Discord;
+using UnityBot3000.Discord.Entities;
+using UnityBot3000.Storage;
 
-namespace UnityBot_3000
+namespace UnityBot3000
 {
     internal class Program
     {

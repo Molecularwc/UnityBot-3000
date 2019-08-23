@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
 using Discord;
 using Discord.WebSocket;
-using UnityBot_3000.Discord.Entities;
+using UnityBot3000.Discord.Entities;
 
-namespace UnityBot_3000.Discord
+namespace UnityBot3000.Discord
 {
     public class Connection
     {

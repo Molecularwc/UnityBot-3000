@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityBot 3000", "UnityBot 3000\UnityBot 3000.csproj", "{FE69CD73-B1FC-4824-99BF-A8FC79941C48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityBot 3000", "UnityBot 3000\UnityBot3000.csproj", "{FE69CD73-B1FC-4824-99BF-A8FC79941C48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityBot3000.xUnit.Tests", "UnityBot3000.xUnit.Tests\UnityBot3000.xUnit.Tests.csproj", "{6F81ED20-5DF6-46AB-969C-5056FD8A600D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FE69CD73-B1FC-4824-99BF-A8FC79941C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE69CD73-B1FC-4824-99BF-A8FC79941C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE69CD73-B1FC-4824-99BF-A8FC79941C48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F81ED20-5DF6-46AB-969C-5056FD8A600D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F81ED20-5DF6-46AB-969C-5056FD8A600D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F81ED20-5DF6-46AB-969C-5056FD8A600D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F81ED20-5DF6-46AB-969C-5056FD8A600D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

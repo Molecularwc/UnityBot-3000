@@ -1,4 +1,4 @@
-﻿namespace UnityBot_3000.Storage
+﻿namespace UnityBot3000.Storage
 {
     public interface IDataStorage
     {

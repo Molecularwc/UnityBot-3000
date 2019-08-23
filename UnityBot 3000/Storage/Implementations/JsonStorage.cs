@@ -2,7 +2,7 @@
 using static System.IO.Directory;
 using Newtonsoft.Json;
 
-namespace UnityBot_3000.Storage.Implementations
+namespace UnityBot3000.Storage.Implementations
 {
     public class JsonStorage : IDataStorage
     {
